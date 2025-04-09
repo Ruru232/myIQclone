@@ -75,7 +75,9 @@ export default function TrustedByMillions() {
                     <p className="line-clamp-3">{item.review}</p>
                   </div>
                   <div className="p-3 h-auto w-full items-center overflow-hidden color-inherit subpixel-antialiased rounded-b-large flex justify-end text-[11px]">
-                    {item.location} {item.time}
+                    <p>
+                      {item.location} {item.time}
+                    </p>
                   </div>
                 </div>
               </SwiperSlide>
