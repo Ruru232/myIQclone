@@ -1,6 +1,3 @@
-import { time } from "console";
-import { title } from "process";
-
 export const HowItWorksData = [
     {
         id: 1,
