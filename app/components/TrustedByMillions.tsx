@@ -6,6 +6,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 
 import { TrustedByMillionsData } from './_lib/data';
+import Image from 'next/image';
 
 export default function TrustedByMillions() {
   return (
@@ -115,6 +116,14 @@ export default function TrustedByMillions() {
               ></path>
             </svg>
           </div>
+          <Image
+            src="/img/reviewsio.svg"
+            width={120}
+            height={20}
+            alt="Reviews IO Logo"
+            priority
+            className="w-30 h-5 place-self-end mt-10"
+          />
         </div>
       </div>
     </div>

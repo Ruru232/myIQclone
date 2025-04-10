@@ -14,7 +14,7 @@ export default function WhatWillYouGet() {
             What Will You Get
           </h4>
           <div className="overflow-x-auto pt-5 max-lg:w-[calc(100vw-48px)] scrollbar-hidden">
-            <div className="flex gap-6">
+            <div className="flex gap-6 bg-white">
               {WhatWillYouGetData.map((item, index) => (
                 <div
                   key={index}

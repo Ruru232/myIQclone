@@ -16,7 +16,7 @@ export default function AvailableTest() {
           {AvailableTestData.map((item, index) => (
             <div
               key={index}
-              className="flex flex-col relative overflow-hidden h-auto text-foreground box-border outline-none shadow-none rounded-lg w-full border-1 border-[#E2E8F0]"
+              className="flex flex-col relative overflow-hidden h-auto text-foreground box-border outline-none shadow-none rounded-lg w-full border-1 border-[#E2E8F0] bg-white"
             >
               <div className="relative flex w-full p-3 flex-auto flex-col h-auto break-words text-left overflow-y-auto gap-2.5 px-4 py-6 antialiased max-md:items-center max-sm:items-start md:gap-3">
                 <Image

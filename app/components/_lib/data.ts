@@ -2,7 +2,7 @@ export const HowItWorksData = [
     {
         id: 1,
         img: '/img/note.svg',
-        title: 'take a Test',
+        title: 'Take a Test',
         description: 'Get an unbiased view of yourself',
     },
     {
